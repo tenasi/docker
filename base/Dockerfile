@@ -4,8 +4,7 @@ LABEL maintainer="jipp@tenasi.de"
 
 ENV OS_RELEASE=23.10 \
     OS_CODENAME=bionic \
-    TIMEZONE=Europe/Berlin \
-    DEBIAN_FRONTEND=noninteractive
+    TIMEZONE=Europe/Berlin
 
 RUN apt-get -y --no-install-recommends update && \
     apt-get -y --no-install-recommends upgrade && \
