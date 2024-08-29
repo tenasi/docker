@@ -1,8 +1,8 @@
-FROM ubuntu:22.04
+FROM ubuntu:23.10
 
-LABEL maintainer="jip@tenasi.de"
+LABEL maintainer="jipp@tenasi.de"
 
-ENV OS_RELEASE=22.04 \
+ENV OS_RELEASE=23.10 \
     OS_CODENAME=bionic \
     TIMEZONE=Europe/Berlin \
     DEBIAN_FRONTEND=noninteractive
